@@ -1,0 +1,42 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Node modules
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Runtime / temp
+*.pid
+*.seed
+*.pid.lock
+tmp/
+temp/
+
+# SQLite database files (не коммитим локальные БД)
+*.db
+*.sqlite
+*.sqlite3
+
+# Optional: keep folder structure for db
+!project/server/database/.gitkeep
